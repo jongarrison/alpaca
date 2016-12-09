@@ -1117,7 +1117,7 @@
             var self = this;
 
             // insert into dom
-            if (!index)
+            if (Alpaca.isEmpty(index))
             {
                 // insert first into container
                 $(self.container).prepend(item.containerItemEl);
